@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    max-width: 1200px;
+    margin: auto;
+
+    & navbar {
+        display: flex;
+        justify-content: space-between;
+        max-width: 576px;
+        margin: auto;
+        font-size: 20px;
+
+        & a {
+            margin-top: 80px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        & a:hover {
+            color: #FFB800;
+        }
+
+        & .active {
+            color: #39DC8D;
+        }
+
+        & .active:hover {
+            color: #39DC8D;
+        }
+
+        & .button {
+            margin-top: 70px;
+            border: 1px solid #fff;
+            padding: 10px 20px;
+            border-radius: 18px;
+        }
+
+        & .button:hover {
+            margin-top: 70px;
+            border: 1px solid #FFB800;
+            padding: 10px 20px;
+            border-radius: 18px;
+        }
+    }
+}
+
+section {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 200px;
+    
+    & h3 {
+        max-width: 890px;
+        margin: auto;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    
+    & .top {
+        & .design {
+            font-size: 60px;
+            color: #FFB800;
+        }
+    
+        & .develop {
+            font-size: 60px;
+            color: #39DC8D;
+        }
+    }
+    
+
+    & img {
+        width: 250px;
+        margin-left: 700px;
+        margin-top: -50px;
+    }
+
+    & .mid, .under {
+        margin-top: 100px;
+    }
+
+    & .link {
+        display: flex;
+        max-width: 890px;
+        margin: 100px auto;
+
+        & h3 {
+            margin-left: 0;
+        }
+
+        & a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            margin-left: 20px;
+            border: 1px solid #fff;
+            padding: 10px 30px;
+            border-radius: 18px;
+        }
+
+        & a:hover {
+            color: #FFB800;
+            border: 1px solid #FFB800;
+        }
+    }
+}
+
+footer {
+    background-color: #39DC8D;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+    & p {
+        max-width: 1200px;
+        margin: auto;
+        font-size: 20px;
+    }
+}
